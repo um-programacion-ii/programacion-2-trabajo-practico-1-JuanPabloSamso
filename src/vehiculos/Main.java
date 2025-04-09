@@ -16,5 +16,9 @@ public class Main {
 
         System.out.println("Información del Vehículo 3:");
         vehiculo3.mostrarInformacion();
+
+        VehiculoPrinter printer = new VehiculoPrinter();
+        printer.imprimirInformacion(vehiculo1);
+
     }
 }
