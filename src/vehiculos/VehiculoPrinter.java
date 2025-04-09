@@ -16,5 +16,9 @@ public class VehiculoPrinter {
         System.out.println("Marca: " + vehiculo.getMarca());
         System.out.println("Año: " + vehiculo.getAnio());
         System.out.println("Capacidad de Carga (Kg): " + vehiculo.getCapacidadCargaKg());
+        String infoExtra = vehiculo.getInformacionExtra();
+        if (!infoExtra.isEmpty()) {
+            System.out.println(infoExtra);
+        }
     }
 }

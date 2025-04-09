@@ -9,6 +9,9 @@ public class Main {
 
         VehiculoPrinter printer = new VehiculoPrinter();
 
+        // Instancia de Camion
+        Vehiculo camion1 = new Camion("CAM001", "Volvo", 2018, 1200.0, true);
+
         // Imprimir información de cada vehículo
         System.out.println("Información del Vehículo 1:");
         printer.imprimirInformacion(vehiculo1);
@@ -19,5 +22,7 @@ public class Main {
         System.out.println("Información del Vehículo 3:");
         printer.imprimirInformacion(vehiculo3);
 
+        System.out.println("Información de un Camión:");
+        printer.imprimirInformacion(camion1);
     }
 }
