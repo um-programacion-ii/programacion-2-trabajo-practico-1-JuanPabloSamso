@@ -12,17 +12,27 @@ public class Main {
         // Instancia de Camion
         Vehiculo camion1 = new Camion("CAM001", "Volvo", 2018, 1200.0, true);
 
+        // Instancia de Auto
+        Vehiculo auto1 = new Auto("AUTO001", "Audi", 2020, 600.0, 5);
+
         // Imprimir información de cada vehículo
         System.out.println("Información del Vehículo 1:");
         printer.imprimirInformacion(vehiculo1);
+        System.out.println("-------------------------------");
 
         System.out.println("Información del Vehículo 2:");
         printer.imprimirInformacion(vehiculo2);
+        System.out.println("-------------------------------");
 
         System.out.println("Información del Vehículo 3:");
         printer.imprimirInformacion(vehiculo3);
+        System.out.println("-------------------------------");
 
         System.out.println("Información de un Camión:");
         printer.imprimirInformacion(camion1);
+        System.out.println("-------------------------------");
+
+        System.out.println("Información de un Auto:");
+        printer.imprimirInformacion(auto1);
     }
 }
