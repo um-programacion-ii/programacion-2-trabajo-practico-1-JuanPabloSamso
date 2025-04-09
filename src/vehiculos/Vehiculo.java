@@ -19,7 +19,6 @@ public class Vehiculo {
         if (capacidadCargaKg <= 0) {
             throw new IllegalArgumentException("La capacidad de carga debe ser mayor a cero");
         }
-
         this.patente = patente;
         this.marca = marca;
         this.anio = anio;
@@ -68,11 +67,5 @@ public class Vehiculo {
         }
         this.capacidadCargaKg = capacidadCargaKg;
     }
-
-    public void mostrarInformacion() {
-        System.out.println("Patente: " + this.patente);
-        System.out.println("Marca: " + this.marca);
-        System.out.println("Año: " + this.anio);
-        System.out.println("Capacidad de carga (Kg): " + this.capacidadCargaKg);
-    }
 }
+
